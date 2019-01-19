@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/prongbang/restapi/cmd"
+	"restapi/cmd"
 )
 
 func main() {

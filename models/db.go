@@ -1,11 +1,12 @@
 package models
 
 import (
+	"restapi/conf"
+
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/pkg/errors"
-	"github.com/prongbang/restapi/conf"
 
 	"github.com/jinzhu/gorm"
 )

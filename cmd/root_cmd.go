@@ -4,9 +4,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/prongbang/restapi/api"
+	"restapi/api"
 
-	"github.com/prongbang/restapi/conf"
+	"restapi/conf"
+
 	"github.com/spf13/cobra"
 )
 

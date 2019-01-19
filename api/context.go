@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prongbang/restapi/conf"
+	"restapi/conf"
+
 	"github.com/sirupsen/logrus"
 
 	jwt "github.com/dgrijalva/jwt-go"

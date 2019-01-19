@@ -1,4 +1,4 @@
-package: github.com/prongbang/restapi
+package: restapi
 import:
 - package: github.com/dgrijalva/jwt-go
   version: ^3.2.0

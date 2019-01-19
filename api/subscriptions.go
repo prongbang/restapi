@@ -7,8 +7,9 @@ import (
 	"fmt"
 	"strings"
 
+	"restapi/models"
+
 	"github.com/guregu/kami"
-	"github.com/prongbang/restapi/models"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/square/go-jose.v1/json"
 )

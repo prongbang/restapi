@@ -7,9 +7,10 @@ import (
 	"regexp"
 	"time"
 
+	"restapi/conf"
+
 	"github.com/google/uuid"
 	"github.com/guregu/kami"
-	"github.com/prongbang/restapi/conf"
 	"github.com/rs/cors"
 	"github.com/zenazn/goji/web/mutil"
 
