@@ -1,8 +1,7 @@
 all: test build ## Run the tests and build the binary.
 
 build: ## Build the binary.
-	# go build -ldflags "-X github.com/prongbang/restapi/cmd.Version=`git rev-parse HEAD`"
-	go get ./...
+	go get -u github.com/Masterminds/glide && glide install
 	go build
 
 lint: ## Lint the code
