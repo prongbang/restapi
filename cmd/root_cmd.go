@@ -8,7 +8,6 @@ import (
 
 	"github.com/prongbang/restapi/conf"
 	"github.com/spf13/cobra"
-	stripe "github.com/stripe/stripe-go"
 )
 
 var rootCmd = cobra.Command{
@@ -41,9 +40,6 @@ func run(cmd *cobra.Command, args []string) {
 	// if err != nil {
 	// 	logger.Fatal("Failed to connect to db: " + err.Error())
 	// }
-
-	logger.Info("Configuring stripe access")
-	stripe.Key = config.StripeKey
 
 	logger.Infof("Starting API on port %d", config.Port)
 	a := api.NewAPI(config, Version)
