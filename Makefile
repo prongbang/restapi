@@ -1,8 +1,6 @@
 all: test build ## Run the tests and build the binary.
 
 build: ## Build the binary.
-	go get -u github.com/Masterminds/glide
-	glide install
 	go build
 
 lint: ## Lint the code
